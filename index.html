@@ -1,47 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Practice #2</title>
+    <title>Food Menu Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 
+<!-- === NAV SECTION === -->
 
 <body>
+
     <head>
         <nav class="nav-bar" id="nav-bar">
-        <img src="#" alt="site-logo">
-        <a href=""><li>Home</li></a>
-        <a href=""><li>Menu</li></a>
-        <a href=""><li>Survey</li></a>
+            <img src="#" alt="site-logo">
+            <ul>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Menu</li>
+                </a>
+                <a href="">
+                    <li>Survey</li>
+                </a>
+            </ul>
+
         </nav>
     </head>
 
     <!-- === HERO SECTION === -->
-    <div class="hero-content" id="hero-content">
-        <img src="#" alt="hero-img">
+    <div class="hero-container" id="hero-container">
+        <!-- <img src="#" alt="hero-img"> -->
         <div class="hero-content">
-            <h1>Site Heading</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia non, recusandae porro cumque reprehenderit expedita obcaecati quibusdam necessitatibus excepturi deserunt? Ducimus placeat nulla enim nemo commodi itaque dolorem ipsum vero?</p>
-            <div class="hero-btn">
-                <button>Submit</button>
-            </div>
+            <h1 id="heading">Site Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia non, recusandae porro cumque reprehenderit
+                expedita obcaecati quibusdam necessitatibus excepturi deserunt? Ducimus placeat nulla enim nemo commodi
+                itaque dolorem ipsum vero?</p>
+            <button class="btn" id="btn">Submit</button>
         </div>
     </div>
 
     <!-- === MAIN SECTION === -->
-    <div class="main-content" id="main-content">
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
+    <div class="main-container" id="main-container">
+        <h1>Menu Items</h1>
+        <div class="main-content">
+            <div class="container">
+                <img src="images/image-one_josephgonzalez.avif" alt="">
+                <h2>Food Item</h2>
+            </div>
+            <div class="container">
+                <img src="images/image-two_caseylee.avif" alt="">
+                <h2>Food Item</h2>
+            </div>
+            <div class="container">
+                <img src="images/image-three_josephgonzalez.avif" alt="">
+                <h2>Food Item</h2>
+            </div>
+            <!-- <div class="container">
+                <img src="images/hero-image_cottonborostudio.jpeg" alt="">
+                <h3>Food Item</h3>
+            </div> -->
+        </div>
+        
+
+        <!-- Allow users to click more to see more items on the list -->
     </div>
-    
+
+
+
     <!-- === SECTION 2 === -->
-    <!-- input some type of form -->
+    <!-- input some type of form or survey -->
+    <div class="bottom-container" id="bottom-container">
+        <div class="bottom-content" id="bottom-content">
+            <h1>Survey</h1>
+            <p>How did you like our menu?</p>
+            <div class="survey">
+                <form action="">
+                    <input type="checkbox" name="" id="">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <h1>Learn More!</h1>
+    </footer>
+
     
+
+    <div id="app"></div>
+
+
+
     <script src="app.js"></script>
 </body>
+
 </html>
